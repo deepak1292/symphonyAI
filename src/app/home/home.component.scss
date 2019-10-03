@@ -1,0 +1,67 @@
+.main_heading {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.main_section {
+  width: 100%;
+}
+
+.sidenav {
+  width: 15%;
+  float: left;
+  background-color: whitesmoke;
+  height: 100vh;
+}
+
+.main_content {
+  width: 100%;
+  float: right;
+  height: 100%;
+  position: relative;
+}
+
+mat-list-item {
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+}
+
+.right {
+  font-family: sans-serif;
+  font-size: 1rem;
+  position: relative;
+  left: 77%;
+  display: flex;
+}
+
+.company_name {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+
+.title {
+  position: relative;
+  left: 38%;
+}
+
+.checkbox {
+  margin: 20px;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+.search_field {
+  position: relative;
+  left: 40%;
+}
+
+.button {
+  margin-left: 10%;
+  width: 50%;
+  font-size: 1rem;
+  font-family: sans-serif
+}

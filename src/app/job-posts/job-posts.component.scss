@@ -1,0 +1,20 @@
+table {
+  width: 40%;
+  margin: 2%;
+  height: 10vh;
+  position: relative;
+  left: 25%;
+}
+
+.heading {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  position: relative;
+  left: 40%;
+  margin-top: 10%;
+}
+
+mat-row {
+  cursor: pointer;
+}

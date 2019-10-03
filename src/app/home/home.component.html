@@ -1,0 +1,42 @@
+<div class="main_container">
+  <div class="header">
+    <mat-toolbar color="primary" class="mat-elevation-z12">
+      <span class="company_name">Symphony AI</span>
+      <span class="right">Consultant:venki</span>
+    </mat-toolbar>
+
+    <mat-toolbar class="mat-elevation-z2">
+      <span class="checkbox">
+        <mat-checkbox [checked]="open" (change)="open_status($event)">Open</mat-checkbox>
+      </span>
+      <span class="checkbox">
+        <mat-checkbox [checked]="closed" (change)="closed_status($event)">Closed</mat-checkbox>
+      </span>
+      <span class="title">Title</span>
+      <form class="search_field">
+        <mat-form-field>
+          <input matInput placeholder="search" name="title" value="" [(ngModel)]="title">
+        </mat-form-field>
+        <button mat-raised-button color="primary" class="button" (click)="search_title(title)">Search</button>
+
+      </form>
+    </mat-toolbar>
+  </div>
+  <div class="main_section">
+
+
+  </div>
+
+  <div class="main_content">
+
+    <!-- <router-outlet></router-outlet> -->
+
+    <app-job-posts></app-job-posts>
+    <br>
+    <app-shortlists></app-shortlists>
+    <br>
+    <app-interviews></app-interviews>
+
+  </div>
+
+</div>

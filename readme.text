@@ -1,0 +1,35 @@
+ steps to compile the project
+
+
+ 1. This project has been developed using the node js v10 and angular 8,so latest version of cli is required to run the project.
+ 2.Once the project is cloned just to the npm install to install all the dependencies.
+ 3.After installing all the dependencies just do ng serve or yarn start to run.
+ 4.Open the browser and type the url localhost:4200.
+
+
+ About the project.
+
+ 1. This project has the 3 seperate component ,Jobposts component,interview component,shortlisted component,
+ 2. For the designing purpose i have used the latest version of Angular material + css+html.
+ 3. For showing error handling i have used ngx toaster to show the alert.
+
+
+ * Dummy data is inside the assets folder assets/data.json
+ * To communicate within communicate i have used shared module for data sharing.
+
+
+ *After compiling when we load the home page ,we have a option of checkbox to find all the open job post .
+
+ * same as for the close checkbox also.
+
+ * right now i have only 4 dummy data for the search option and profile like web developer or front developer can be searched.Just type Frontend developer in search box and click on the search button ,we can see the list of posts available to the front end position.
+
+ * after the job post list if we click on the company(example xlayer) it will show the interview table,
+
+ * in the interview table if we click on the name (deepak etx )it will show the status (shortlisted table).
+
+
+
+ I have not focused on designing much just the functionality i have worked.
+
+
